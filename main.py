@@ -3,9 +3,13 @@ import time
 
 start = time.time()
 test = speedtest.Speedtest()
-download = test.download()
-upload = test.upload()
-end = time.time()
 
-print(f"Download Speed: {download} Upload Speed : {upload}")
+download = test.download()
+print(f"Download Speed: {download}", flush=True)
+
+
+upload = test.upload()
+print(f"Upload Speed: {upload}", flush=True)
+
+end = time.time()
 print("Done in " + str(end - start) + " seconds")
