@@ -1,3 +1,4 @@
+# to install speedtest it is 'pip install speedtest-cli'
 import speedtest
 import time
 
