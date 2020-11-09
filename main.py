@@ -2,6 +2,8 @@
 import speedtest
 import time
 
+print('Starting test please wait...\n')
+
 start = time.time()
 test = speedtest.Speedtest()
 
